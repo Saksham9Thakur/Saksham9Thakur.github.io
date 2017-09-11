@@ -1,0 +1,179 @@
+#wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
+
+html, body {
+	height: 100%;
+}
+
+html {
+	background-image: url('../img/sample.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	-moz-transform: scale(1);
+
+}
+
+body {
+	background-color: rgba(44,62,80 , 0.6 );
+	background-image: url('../img/pattern.png');
+	background-position: center;
+	background-repeat: repeat;
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.countdown-container {
+	position: relative;
+	top: 80%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+#outside{
+	margin-left: 25%; 
+	margin-top: 5%;
+	position: absolute;
+
+}
+
+#sa{
+   
+margin-top:-13%;
+margin-left: 45%;
+	
+	position: absolute;
+	color: #ffffff;
+	z-index: 1;
+	font-family: arial;
+
+}
+
+
+#sa1{
+   
+margin-top:-8%;
+margin-left: 45%;
+
+	position: absolute;
+	color: #ffffff;
+	z-index: 1;
+	font-family: arial;
+	
+}
+
+#sa2{
+   
+
+margin-left: 45%;
+margin-top:-3%;	
+	position: absolute;
+	color: #ffffff;
+	z-index: 1;
+	font-family: arial;
+	
+}
+
+
+#sa3{
+   
+	margin-top:2%;
+margin-left: 45%;
+	
+	position: absolute;
+	color: #ffffff;
+	z-index: 1;
+	font-family: arial;
+
+	
+}
+
+
+.start{
+
+	
+	zoom= 100%;
+} 
+
+.clock-item .inner {
+	height: 0%;
+	padding-bottom: 100%;
+	position: absolute;	
+	width: 75%;
+	margin-left: 5%;
+	margin-top: 1000px;
+	
+
+}
+.clock-item .inner-slll {
+	height: 0%;
+	padding-bottom: 100%;
+	position: absolute;	
+	width: 75%;
+	margin-left: 10%;
+	margin-top: 1000px;
+	
+
+
+}
+.clock-item .inner-sl {
+	height: 0%;
+	padding-bottom: 42%;
+	position: absolute;	
+	width: 50%;
+	margin-top: 1050px;
+	margin-left: -9%;
+}
+.clock-item .inner-sll {
+	height: 0px;
+	padding-bottom: 42%;
+	position: relative;	
+	width: 50%;
+	margin-left: 65%;
+	margin-top: 1050px;
+
+
+
+}
+.clock-canvas {
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+}
+
+.text {
+	color: #fff;	
+	font-size: 30px;
+	font-weight: bold;	
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	width: 100%;
+}
+
+.text .val {
+	font-size: 50px;
+}
+
+.text .type-time {
+	font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.clock-item {
+		margin-bottom: 30px;		
+	}
+}
+
+@media (max-width: 767px) {
+	.clock-item {
+		margin: 0px 30px 30px 30px;
+	}
+}
